@@ -8,3 +8,6 @@ Werkzeug==1.0.1
 langdetect
 requests
 bs4
+Pillow
+numpy
+io
