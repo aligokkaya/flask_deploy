@@ -1,13 +1,10 @@
-from flask import redirect,url_for,request,render_template
+from flask import request,render_template,Flask, jsonify
 from langdetect import detect
 import requests
 from bs4 import BeautifulSoup
-import requests
 from PIL import Image
 import numpy as np
 from io import BytesIO
-import os
-from flask import Flask, jsonify
 import os
 
 app = Flask(__name__)
