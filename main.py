@@ -12,9 +12,6 @@ import os
 
 app = Flask(__name__)
 
-os.system('pip install bs4')
-os.system('pip install langdetect')
-os.system('pip install numpy')
 @app.route('/', methods=['GET', 'POST'])
 def login():
     jso={'link':[],
